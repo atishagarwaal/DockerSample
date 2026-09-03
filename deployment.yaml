@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mysampleapp
-        image: myregistrytrial2.azurecr.io/myimage
+        image: <registry-name>.azurecr.io/myimage
         ports:
         - containerPort: 80
